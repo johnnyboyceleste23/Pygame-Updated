@@ -126,7 +126,7 @@ while running:
             if power_up.rect.colliderect(paddle.rect):
                 power_up = None
                 paddle.rect.width += 20
-                power_up_spawned = False
+
             elif power_up.rect.y > 500:
                 power_up = None
                 power_up_spawned = False
